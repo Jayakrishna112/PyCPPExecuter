@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+PyCPPExecuter.egg-info/PKG-INFO
+PyCPPExecuter.egg-info/SOURCES.txt
+PyCPPExecuter.egg-info/dependency_links.txt
+PyCPPExecuter.egg-info/requires.txt
+PyCPPExecuter.egg-info/top_level.txt

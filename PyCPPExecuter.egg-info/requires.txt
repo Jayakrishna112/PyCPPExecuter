@@ -1,0 +1,6 @@
+python-git
+tqdm
+
+[dev]
+pytest>=7.0
+twine>=4.0
