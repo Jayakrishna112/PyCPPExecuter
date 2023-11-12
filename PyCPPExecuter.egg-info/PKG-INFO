@@ -1,8 +1,8 @@
 Metadata-Version: 2.1
 Name: PyCPPExecuter
-Version: 1.1.2
+Version: 1.0.0
 Summary: This is a module that uses python interface to execute the c/c++ programs and perform actions
-Home-page: https://github.com/PyCPPExecuter
+Home-page: https://github.com/Jayakrishna112/PyCPPExecuter
 Author: JayaKrishna
 Author-email: jayakrishnamarni1234@gmail.com
 License: MIT
