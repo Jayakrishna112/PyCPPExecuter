@@ -15,14 +15,14 @@ Full documentation and examples available at : https://jayakrishna112.github.io/
 ### Example Usage
 
 ```python
->>>from PyCPPExecuter import CPPExecuter
->>>executer = CPPExecuter()
->>>code = """#include<iostream>
+from PyCPPExecuter import CPPExecuter
+executer = CPPExecuter()
+code = """#include<iostream>
 int main(){
     std::cout << "Hello World!";
     return 0;
 }
 """
->>>executer.compile(code = code)
->>>executer.execute()
+executer.compile(code = code)
+executer.execute()
 ```
