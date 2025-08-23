@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = 'PyCPPExecuter'
+version = '1.2.0'
+
+description = 'This is a module that uses python interface to execute the c/c++ programs and perform actions'
+authors = [
+{ name='Jaya Krishna Marni', email='jayakrishnamarni1234@gmail.com'}
+]
+license = { text = 'MIT' }
+readme = {file = 'README.md', content-type = "text/markdown"}
+requires-python = '>=3.10'
+
+dependencies = []
+
+[project.optional-dependencies]
+dev = ["pytest>=7.0", "twine>=4.0"]
+
+[project.scripts]
+gcc-install = "PyCPPExecuter:compiler_installer"
+
+[project.urls]
+Homepage = "https://github.com/Jayakrishna112/PyCPPExecuter"
+Documentation = "https://jayakrishna112.github.io/docs.PyCPPExecuter/"
+Source = "https://github.com/Jayakrishna112/PyCPPExecuter"
+Tracker = "https://github.com/Jayakrishna112/PyCPPExecuter/issues"
+
+[tool.setuptools.packages.find]
+where = ["."]
