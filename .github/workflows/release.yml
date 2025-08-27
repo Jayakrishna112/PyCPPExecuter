@@ -2,8 +2,9 @@ name: Publish Python Package to PyPI
 
 on:
   push:
-    branches:
-      - main
+    tags:
+      - 'testpypi/release'
+      - 'pypi/release'
 
 jobs:
   build:
