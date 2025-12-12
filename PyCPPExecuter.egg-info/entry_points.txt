@@ -1,0 +1,2 @@
+[console_scripts]
+gcc-install = PyCPPExecuter:compiler_installer

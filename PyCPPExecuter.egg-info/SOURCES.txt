@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+PyCPPExecuter/CPPExecuter.py
+PyCPPExecuter/__init__.py
+PyCPPExecuter/__version__.py
+PyCPPExecuter/compiler_install.py
+PyCPPExecuter.egg-info/PKG-INFO
+PyCPPExecuter.egg-info/SOURCES.txt
+PyCPPExecuter.egg-info/dependency_links.txt
+PyCPPExecuter.egg-info/entry_points.txt
+PyCPPExecuter.egg-info/requires.txt
+PyCPPExecuter.egg-info/top_level.txt
